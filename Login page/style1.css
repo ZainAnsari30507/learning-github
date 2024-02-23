@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg);
+    background-size: cover;
+    /* border: 10px solid ; */
+}
+    
+
+.page {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(30px);
+    color: #fff;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.page .input-type {
+    position: relative;
+    width: 420px;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-type input {
+    width: 355px;
+    height: 30px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px ;
+}
+
+.input-type input::placeholder {
+    color: #fff;
+}
+
+.input-type i {
+    position: relative;
+    right: 40px;
+    top: 0px;
+    transform: translateY(-50);
+    font-size: 16px;
+}
+
+.page .Remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin: -14px 0px 15px;
+    font-size: 14.5px;
+}
+
+.Remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.Remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.page button {
+    width: 355px;
+    height: 30px;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.page button:hover {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.page .register {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14.5px;
+}
